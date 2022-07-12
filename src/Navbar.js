@@ -3,7 +3,8 @@ import React from "react"
 export default function Navbar() {
     return (
         <nav>
-            Hello!
+            <img src="./world.png" className="nav--world" />
+            <p className="nav--title">my travel journey</p>
         </nav>
     )
 }
