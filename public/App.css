@@ -7,9 +7,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.new-line {
+    white-space: pre-line;
+}
+
 nav {
     background-color: red;
     display: flex;
+    justify-content: center;
 }
 
 .nav--world {
@@ -20,4 +25,66 @@ nav {
 .nav--title {
     color: white;
     padding: 20px 0px;
+}
+
+.card {
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.card--data-container {
+    display: block;
+    padding-left: 10px;
+}
+
+.card--image {
+    width: 40%;
+    border-radius: 9px;
+}
+
+.location--container {
+   display: flex; 
+}
+
+.card--maps-pin {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 18px;
+}
+
+.card--location {
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.card--google-maps {
+    padding-left: 15px;
+    padding-top: 11px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(118, 118, 118);
+}
+
+.card--place {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.dates--container {
+    display: flex;
+    font-weight: bold;
+}
+
+.card--date {
+    font-size: 15px;
+}
+
+.card--description {
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(118, 118, 118);
 }
